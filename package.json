@@ -1,0 +1,120 @@
+{
+  "publisher": "simonhe",
+  "name": "fast-create-variable",
+  "displayName": "fast-create-variable",
+  "version": "0.0.37",
+  "packageManager": "pnpm@8.1.1",
+  "description": "fast-create-variable",
+  "author": "Simon He <https://github.com/Simon-He95>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/Simon-He95",
+  "homepage": "https://github.com/Simon-He95/fast-create-variable#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Simon-He95/fast-create-variable"
+  },
+  "bugs": {
+    "url": "https://github.com/Simon-He95/fast-create-variable/issues"
+  },
+  "sponsor": {
+    "url": "https://github.com/Simon-He95/sponsor"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./dist/index.js",
+  "icon": "assets/kv.png",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorFocus",
+          "command": "fast-create-variable.select",
+          "group": "6_px"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "fast-create-variable.select",
+        "title": "fast create variable"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "fast-create-variable.select",
+        "key": "cmd+g",
+        "when": "isMac"
+      },
+      {
+        "command": "fast-create-variable.select",
+        "key": "ctrl+g",
+        "when": "!isMac"
+      },
+      {
+        "command": "fast-create-variable.activation",
+        "title": "activation fast-create-variable"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "fast-create-variable",
+      "properties": {
+        "fast-create-variable.atTop": {
+          "type": "boolean",
+          "default": false,
+          "description": "Generate data, methods, etc. for vue2 at the top or at the bottom"
+        },
+        "fast-create-variable.sound": {
+          "type": "boolean",
+          "default": false,
+          "description": "Play sound when variable is created"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "dev": "pnpm build --watch",
+    "test": "vitest",
+    "build": "tsup src/index.ts --external vscode",
+    "pack": "vsce package --no-dependencies",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json --max-warnings 0 --cache",
+    "lint:fix": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json --max-warnings 0 --cache --fix",
+    "publish": "vsce publish --no-dependencies",
+    "typecheck": "tsc --noEmit",
+    "release": "bumpp && pnpm run publish"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.4",
+    "@babel/parser": "^7.23.0",
+    "@babel/types": "^7.23.0",
+    "@types/node": "^18.15.11",
+    "@types/vscode": "^1.77.0",
+    "@vscode-use/utils": "^0.0.74",
+    "@vue/compiler-sfc": "^3.3.4",
+    "axios": "^1.6.3",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.37.0",
+    "esno": "^0.16.3",
+    "lazy-js-utils": "^0.0.68",
+    "node-machine-id": "^1.1.12",
+    "play-sound": "^1.1.6",
+    "pnpm": "^8.1.1",
+    "rimraf": "^4.4.1",
+    "svelte": "^4.2.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1",
+    "vitest": "^0.29.8",
+    "vsce": "^2.15.0"
+  }
+}

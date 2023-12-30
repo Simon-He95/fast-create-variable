@@ -1,0 +1,7 @@
+{
+  "extends": "@antfu",
+  "rules":{
+    "eslint-comments/no-unlimited-disable": "off",
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "off"
+  }
+}
