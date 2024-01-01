@@ -6,7 +6,6 @@
   "packageManager": "pnpm@8.1.1",
   "description": "fast-create-variable",
   "author": "Simon He <https://github.com/Simon-He95>",
-  "license": "MIT",
   "funding": "https://github.com/sponsors/Simon-He95",
   "homepage": "https://github.com/Simon-He95/fast-create-variable#readme",
   "repository": {
