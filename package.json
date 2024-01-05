@@ -2,7 +2,7 @@
   "publisher": "simonhe",
   "name": "fast-create-variable",
   "displayName": "fast-create-variable",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "packageManager": "pnpm@8.1.1",
   "description": "fast-create-variable",
   "author": "Simon He <https://github.com/Simon-He95>",
