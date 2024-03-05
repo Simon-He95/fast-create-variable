@@ -17,6 +17,8 @@
 - vue
 - jsx | tsx (react)
 - svelte
+- solid
+- ts | js
 
 ## ⌨️ 按键
 - win: ctrl+g
