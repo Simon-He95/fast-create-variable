@@ -18,6 +18,13 @@
   "sponsor": {
     "url": "https://github.com/Simon-He95/sponsor"
   },
+  "keywords": [
+    "variable",
+    "fast-create-variable",
+    "vue",
+    "react",
+    "svelte"
+  ],
   "categories": [
     "Other"
   ],
