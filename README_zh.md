@@ -25,23 +25,25 @@
 - mac: cmd+g
 
 ## Configuration
-```javascript
-    "configuration": {
-      "type": "object",
-      "title": "fast-create-variable",
-      "properties": {
-        "fast-create-variable.atTop": {
-          "type": "boolean",
-          "default": false,
-          "description": "生成 data, methods, etc. 在 vue2 中的顶部或者底部"
-        },
-        "fast-create-variable.sound": {
-          "type": "boolean",
-          "default": false,
-          "description": "Play sound when variable is created"
-        }
+```json
+{
+  "configuration": {
+    "type": "object",
+    "title": "fast-create-variable",
+    "properties": {
+      "fast-create-variable.atTop": {
+        "type": "boolean",
+        "default": false,
+        "description": "生成 data, methods, etc. 在 vue2 中的顶部或者底部"
+      },
+      "fast-create-variable.sound": {
+        "type": "boolean",
+        "default": false,
+        "description": "Play sound when variable is created"
       }
     }
+  }
+}
 ```
 
 ## :coffee:

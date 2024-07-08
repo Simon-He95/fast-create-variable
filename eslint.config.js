@@ -10,6 +10,9 @@ module.exports = antfu(
   {
     rules: {
       // overrides
+      'ts/no-require-imports': 'off',
+      'ts/no-var-requires': 'off',
+      'no-console': 'off',
     },
   },
 )

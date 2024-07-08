@@ -23,23 +23,25 @@ Explain the function of this plug-in. Normally, when we write code, we write tem
 - mac: cmd+g
 
 ## Configuration
-```javascript
-    "configuration": {
-      "type": "object",
-      "title": "fast-create-variable",
-      "properties": {
-        "fast-create-variable.atTop": {
-          "type": "boolean",
-          "default": false,
-          "description": "Generate data, methods, etc. for vue2 at the top or at the bottom"
-        },
-        "fast-create-variable.sound": {
-          "type": "boolean",
-          "default": false,
-          "description": "Play sound when variable is created"
-        }
+```json
+{
+  "configuration": {
+    "type": "object",
+    "title": "fast-create-variable",
+    "properties": {
+      "fast-create-variable.atTop": {
+        "type": "boolean",
+        "default": false,
+        "description": "Generate data, methods, etc. for vue2 at the top or at the bottom"
+      },
+      "fast-create-variable.sound": {
+        "type": "boolean",
+        "default": false,
+        "description": "Play sound when variable is created"
       }
     }
+  }
+}
 ```
 
 ## :coffee:
