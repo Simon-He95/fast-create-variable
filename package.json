@@ -104,7 +104,7 @@
     "@babel/parser": "^7.24.7",
     "@babel/types": "^7.24.7",
     "@types/node": "^18.19.39",
-    "@types/vscode": "^1.91.0",
+    "@types/vscode": "1.77.0",
     "@vscode-use/utils": "^0.1.6",
     "@vue/compiler-sfc": "3.3.4",
     "axios": "^1.7.2",
