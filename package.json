@@ -100,12 +100,12 @@
     "release": "pnpm run build && bumpp && pnpm run publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.21.3",
-    "@babel/parser": "^7.24.7",
-    "@babel/types": "^7.24.7",
-    "@types/node": "^18.19.39",
+    "@antfu/eslint-config": "^2.22.4",
+    "@babel/parser": "^7.24.8",
+    "@babel/types": "^7.24.9",
+    "@types/node": "^18.19.40",
     "@types/vscode": "1.77.0",
-    "@vscode-use/utils": "^0.1.6",
+    "@vscode-use/utils": "0.1.10-beta.1",
     "@vue/compiler-sfc": "3.3.4",
     "axios": "^1.7.2",
     "bumpp": "^9.4.1",
@@ -113,14 +113,12 @@
     "esno": "^0.16.3",
     "find-up": "^7.0.0",
     "lazy-js-utils": "^0.0.78",
-    "node-machine-id": "^1.1.12",
     "play-sound": "^1.1.6",
     "pnpm": "^8.15.8",
     "rimraf": "^4.4.1",
     "svelte": "^4.2.18",
     "tsup": "^6.7.0",
     "typescript": "^5.5.3",
-    "vite": "^4.5.3",
     "vitest": "^0.29.8",
     "vsce": "^2.15.0"
   }
