@@ -3,7 +3,7 @@
   "name": "fast-create-variable",
   "displayName": "fast-create-variable",
   "version": "0.0.92",
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "pnpm@8.15.9",
   "description": "fast-create-variable",
   "author": "Simon He <https://github.com/Simon-He95>",
   "funding": "https://github.com/sponsors/Simon-He95",
@@ -100,10 +100,10 @@
     "release": "pnpm run build && bumpp && pnpm run publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.4",
+    "@antfu/eslint-config": "^2.23.2",
     "@babel/parser": "^7.24.8",
     "@babel/types": "^7.24.9",
-    "@types/node": "^18.19.40",
+    "@types/node": "^18.19.41",
     "@types/vscode": "1.77.0",
     "@vscode-use/utils": "0.1.10-beta.1",
     "@vue/compiler-sfc": "3.3.4",
@@ -114,11 +114,11 @@
     "find-up": "^7.0.0",
     "lazy-js-utils": "^0.0.78",
     "play-sound": "^1.1.6",
-    "pnpm": "^8.15.8",
+    "pnpm": "^8.15.9",
     "rimraf": "^4.4.1",
     "svelte": "^4.2.18",
     "tsup": "^6.7.0",
-    "typescript": "^5.5.3",
+    "typescript": "^5.5.4",
     "vitest": "^0.29.8",
     "vsce": "^2.15.0"
   }
