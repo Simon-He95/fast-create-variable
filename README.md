@@ -38,6 +38,19 @@ Explain the function of this plug-in. Normally, when we write code, we write tem
         "type": "boolean",
         "default": false,
         "description": "Play sound when variable is created"
+      },
+      "fast-create-variable.snippet": {
+        "type": "array",
+        "default": [
+          {
+            "name": "useRouter",
+            "from": "vue-router",
+            "position": "top",
+            "languageIds": ["vue"],
+            "content": "const router = useRouter()"
+          }
+        ],
+        "description": "user code snippet inject to variable"
       }
     }
   }

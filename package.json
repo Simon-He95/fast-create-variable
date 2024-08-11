@@ -84,6 +84,21 @@
           "type": "boolean",
           "default": false,
           "description": "Play sound when variable is created"
+        },
+        "fast-create-variable.snippet": {
+          "type": "array",
+          "default": [
+            {
+              "name": "",
+              "from": "",
+              "position": "top",
+              "languageIds": [
+                "vue"
+              ],
+              "content": ""
+            }
+          ],
+          "description": "user code snippet inject to variable"
         }
       }
     }
