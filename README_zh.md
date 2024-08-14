@@ -59,6 +59,53 @@
 }
 ```
 
+## 📦 Snippet
+```json
+// examples
+{
+  "fast-create-variable.snippet": [
+    {
+      "name": "useRouter",
+      "from": "vue-router", // 依赖包, 如果有依赖包, 则会自动判断是否在头部导入
+      "position": "top",
+      "languageIds": [ // 设置在那些语音下生效, vue, typescriptreact, typescript, javascriptreact, vue-vine
+        "vue"
+      ],
+      "content": "const router = useRouter()" // 代码片段
+    },
+    {
+      "name": "useLocation",
+      "from": "react-router-dom", // 依赖包, 如果有依赖包, 则会自动判断是否在头部导入
+      "position": "top",
+      "languageIds": [
+        "typescriptreact"
+      ],
+      "content": "  const locations = useLocation()\n  const params = qs.parse(locations.search, { ignoreQueryPrefix: true })",
+      "isInJSX": true,
+      "additionalDependencies": [ // 你的代码片段中可能会用到额外的依赖的时候, 可以在这里配置
+        {
+          "name": "qs",
+          "from": "qs",
+          "isDefault": true // 是否是默认导入, 默认是 false, 如果是 false, 则会导入 { qs }
+        }
+      ]
+    },
+    {
+      "name": "import",
+      "from": "",
+      "position": "hoist-top", // 插入最后一个 import 导入之后
+      "languageIds": [
+        "vue",
+        "typescriptreact",
+        "typescript",
+        "javascriptreact"
+      ],
+      "content": "import ${2:moduleName} from '${1:module}'"
+    }
+  ]
+}
+```
+
 ## :coffee:
 
 [请我喝一杯咖啡](https://github.com/Simon-He95/sponsor)

@@ -57,6 +57,53 @@ Explain the function of this plug-in. Normally, when we write code, we write tem
 }
 ```
 
+## 📦 Snippet
+```json
+// examples
+{
+  "fast-create-variable.snippet": [
+    {
+      "name": "useRouter",
+      "from": "vue-router", // Dependent packages, if there are dependent packages, it will automatically determine whether to import them in the header
+      "position": "top",
+      "languageIds": [ // Settings take effect in those languages, vue, typescriptreact, typescript, javascriptreact, vue-vine
+        "vue"
+      ],
+      "content": "const router = useRouter()" // Code Snippet
+    },
+    {
+      "name": "useLocation",
+      "from": "react-router-dom", // Dependent packages, if there are dependent packages, it will automatically determine whether to import them in the header
+      "position": "top",
+      "languageIds": [
+        "typescriptreact"
+      ],
+      "content": "  const locations = useLocation()\n  const params = qs.parse(locations.search, { ignoreQueryPrefix: true })",
+      "isInJSX": true,
+      "additionalDependencies": [ // When your code snippet may use additional dependencies, you can configure them here
+        {
+          "name": "qs",
+          "from": "qs",
+          "isDefault": true // Is it the default import? The default is false. If it is false, { qs } will be imported.
+        }
+      ]
+    },
+    {
+      "name": "import",
+      "from": "",
+      "position": "hoist-top", // 插入最后一个 import 导入之后
+      "languageIds": [
+        "vue",
+        "typescriptreact",
+        "typescript",
+        "javascriptreact"
+      ],
+      "content": "import ${2:moduleName} from '${1:module}'"
+    }
+  ]
+}
+```
+
 ## :coffee:
 
 [buy me a cup of coffee](https://github.com/Simon-He95/sponsor)
