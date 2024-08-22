@@ -101,6 +101,16 @@
         "javascriptreact"
       ],
       "content": "import ${2:moduleName} from '${1:module}'"
+    },
+    {
+      "name": "@click",
+      "from": "",
+      "position": "current",
+      "description": "在 vue template 中, 当前位置创建 @click 事件",
+      "languageIds": [
+        "vue"
+      ],
+      "content": "@click=\"${1|clickHandler,handleClick,onClick,removeHandler,onRemove,closeHandler,onClose,openHandler,onOpen,submitHandler,onSubmit,onLogin,onLogout,toggleHandler,onToggle,showHandler,onShow,hideHandler,onHide|}$2\""
     }
   ]
 }

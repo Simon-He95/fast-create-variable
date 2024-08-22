@@ -91,7 +91,7 @@ Explain the function of this plug-in. Normally, when we write code, we write tem
     {
       "name": "import",
       "from": "",
-      "position": "hoist-top", // 插入最后一个 import 导入之后
+      "position": "hoist-top", // Insert after the last import
       "languageIds": [
         "vue",
         "typescriptreact",
@@ -99,6 +99,16 @@ Explain the function of this plug-in. Normally, when we write code, we write tem
         "javascriptreact"
       ],
       "content": "import ${2:moduleName} from '${1:module}'"
+    },
+    {
+      "name": "@click",
+      "from": "",
+      "position": "current",
+      "description": "In the vue template, create a @click event at the current location",
+      "languageIds": [
+        "vue"
+      ],
+      "content": "@click=\"${1|clickHandler,handleClick,onClick,removeHandler,onRemove,closeHandler,onClose,openHandler,onOpen,submitHandler,onSubmit,onLogin,onLogout,toggleHandler,onToggle,showHandler,onShow,hideHandler,onHide|}$2\""
     }
   ]
 }

@@ -2,7 +2,7 @@
   "publisher": "simonhe",
   "name": "fast-create-variable",
   "displayName": "fast-create-variable",
-  "version": "0.1.5",
+  "version": "0.1.9",
   "packageManager": "pnpm@8.15.9",
   "description": "fast-create-variable",
   "author": "Simon He <https://github.com/Simon-He95>",
@@ -19,8 +19,9 @@
     "url": "https://github.com/Simon-He95/sponsor"
   },
   "keywords": [
-    "variable",
     "fast-create-variable",
+    "snippet",
+    "variable",
     "vue",
     "react",
     "svelte"
@@ -30,9 +31,6 @@
   ],
   "main": "./dist/index.js",
   "icon": "assets/kv.png",
-  "files": [
-    "dist"
-  ],
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -123,25 +121,25 @@
     "release": "pnpm run build && bumpp && pnpm run publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.24.1",
+    "@antfu/eslint-config": "^2.27.0",
     "@babel/parser": "^7.25.3",
     "@babel/types": "^7.25.2",
-    "@types/node": "^18.19.43",
+    "@types/node": "^18.19.45",
     "@types/vscode": "1.77.0",
-    "@vscode-use/utils": "0.1.16",
+    "@vscode-use/utils": "0.1.17",
+    "@vscode/vsce": "^3.0.0",
     "@vue/compiler-sfc": "3.3.4",
-    "bumpp": "^9.4.2",
+    "bumpp": "^9.5.1",
     "eslint": "^8.57.0",
     "esno": "^0.16.3",
     "find-up": "^7.0.0",
-    "lazy-js-utils": "^0.0.98",
+    "lazy-js-utils": "^0.0.99",
     "play-sound": "^1.1.6",
     "pnpm": "^8.15.9",
     "rimraf": "^4.4.1",
     "svelte": "^4.2.18",
     "tsup": "^6.7.0",
     "typescript": "^5.5.4",
-    "vitest": "^0.29.8",
-    "vsce": "^2.15.0"
+    "vitest": "^0.29.8"
   }
 }
