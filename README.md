@@ -5,7 +5,9 @@
 
 Select the variable name to quickly provide the creation type, such as ref, computed, methods, function, arrowFunction, watch, reactive, etc. According to whether it is currently vue2 or vue3, generate the corresponding variable and jump to the newly created variable location.
 
-Explain the function of this plug-in. Normally, when we write code, we write template first, such as el-input and then write events such as v-model or @click, and then go to the top to define ref, or function. Through this plug-in, you can directly generate the corresponding variable or method in js logic, and then you can initialize the variable value and supplement the function logic according to your needs, which will save you a lot of time and initialize the coding burden of variables.
+Let me explain the function of this plugin. Normally, when we write code, we first write a template, such as el-input, then write v-model or @click and other events, and then go to the top to define ref or function. With this plugin, you can directly generate corresponding variables or methods in js logic (supports generating multiple variables and methods at the same time), and then you can initialize variable values ​​and supplement function logic according to your needs, which will save you a lot of time and the burden of coding to initialize variables.
+
+Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried it yet, you can find me on [discord](https://discord.com/invite/ZnjxzMKWNW) and get a one-month free trial.
 
 ## VUE
 ![vue](/assets/vue.gif)
@@ -113,6 +115,13 @@ Explain the function of this plug-in. Normally, when we write code, we write tem
   ]
 }
 ```
+
+## 💰 Charge plan
+
+- [Sponsor](https://github.com/Simon-He95/sponsor) me by wechat or alipay, and I will give you more permissions and time to use your GitHub account
+- For users who haven't experienced it yet, you can find me on [discord](https://discord.gg/acz4n2jx2v) to get a one-month free experience qualification.
+- Current plan 15Yuan/month, 150Yuan/year
+- Any `bug` or `suggestion` on the plugin can be communicated on `discord`, or add me wx: `www674949287`, pull you into the wx group
 
 ## :coffee:
 

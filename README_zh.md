@@ -5,7 +5,9 @@
 
 选中变量名快速提供创建类型，比如ref、computed、methods、 function、 arrowFunction、 watch、 reactive,等等，根据当前是vue2还是vue3，生成对应的变量，并跳转到新创建的变量位置
 
-解释一下这个插件的作用，正常我们写代码，是先去写template，比如el-input然后写v-model 或者 @click等事件，然后再去顶部去定义ref，或者 function，通过这个插件可以直接在js逻辑生成对应的变量或者方法，然后你再去根据你的需求去初始化变量值和补充function逻辑即可，会节约你很多的时间，和初始化变量的coding负担。
+解释一下这个插件的作用，正常我们写代码，是先去写template，比如 el-input 然后写 v-model 或者 @click 等事件，然后再去顶部去定义ref，或者 function，通过这个插件可以直接在 js 逻辑生成对应的变量或者方法( 支持同时生成多个变量和方法 )，然后你再去根据你的需求去初始化变量值和补充 function 逻辑即可，会节约你很多的时间，和初始化变量的 coding 负担。
+
+目前这个插件已有了[收费计划](#-收费计划)，如果你还未体验过，可以在 [discord](https://discord.gg/acz4n2jx2v) 上找到我，获得一个月免费体验资格。
 
 ## VUE
 ![vue](/assets/vue.gif)
@@ -115,6 +117,13 @@
   ]
 }
 ```
+
+## 💰 收费计划
+
+- 通过微信或支付宝赞助我，我将为您提供更多使用 GitHub 帐户的权限和时间
+- 对于尚未体验的用户，您可以在 [discord](https://discord.com/invite/ZnjxzMKWNW) 上找到我，获得一个月免费体验资格。
+- 目前计划 15元/月，150元/年
+- 插件上的任何 `bug` 或 `suggestions` 都可以在 `discord` 上交流，或者加我 wx: `www674949287`，将您拉入 wx 群
 
 ## :coffee:
 
