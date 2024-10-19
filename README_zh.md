@@ -12,9 +12,6 @@
 ## VUE
 ![vue](/assets/vue.gif)
 
-## JSX
-![jsx](/assets/jsx.gif)
-
 ## 🚀 支持
 - vue
 - jsx | tsx (react)

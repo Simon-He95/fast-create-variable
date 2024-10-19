@@ -12,8 +12,6 @@ Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried 
 ## VUE
 ![vue](/assets/vue.gif)
 
-## JSX
-![jsx](/assets/jsx.gif)
 
 ## 🚀 Support
 - vue
