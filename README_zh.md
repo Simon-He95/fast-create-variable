@@ -7,7 +7,9 @@
 
 解释一下这个插件的作用，正常我们写代码，是先去写template，比如 el-input 然后写 v-model 或者 @click 等事件，然后再去顶部去定义ref，或者 function，通过这个插件可以直接在 js 逻辑生成对应的变量或者方法( 支持同时生成多个变量和方法 )，然后你再去根据你的需求去初始化变量值和补充 function 逻辑即可，会节约你很多的时间，和初始化变量的 coding 负担。
 
-目前这个插件已有了[收费计划](#-收费计划)，如果你还未体验过，可以在 [discord](https://discord.gg/acz4n2jx2v) 上找到我，获得一个月免费体验资格。
+>如果你在 Cursor 中不能使用，因为 Cursor 的 Github Login 还未做好，这边提供了另一种方式，可以通过 command: `fast-create-variable.inputGithubToken`, 输入你的 `Github Token`，然后就可以使用了。这个过程是绝对安全的，这个 token 只需要 user:account 的权限。
+
+另外, 目前这个插件已有了[收费计划](#-收费计划)，如果你还未体验过，可以在 [discord](https://discord.gg/acz4n2jx2v) 上找到我，获得一个月免费体验资格。
 
 ## VUE
 ![vue](/assets/vue.gif)
@@ -70,7 +72,7 @@
       "languageIds": [ // 设置在那些语音下生效, vue, typescriptreact, typescript, javascriptreact, vue-vine
         "vue"
       ],
-      "content": "const router = useRouter()" // 代码片段
+      "content": "  const router = useRouter()" // 代码片段
     },
     {
       "name": "useLocation",
@@ -94,7 +96,6 @@
       "from": "",
       "position": "hoist-top", // 插入最后一个 import 导入之后
       "languageIds": [
-        "vue",
         "typescriptreact",
         "typescript",
         "javascriptreact"
@@ -121,6 +122,7 @@
 - 对于尚未体验的用户，您可以在 [discord](https://discord.com/invite/ZnjxzMKWNW) 上找到我，获得一个月免费体验资格。
 - 目前计划 15元/月，150元/年
 - 插件上的任何 `bug` 或 `suggestions` 都可以在 `discord` 上交流，或者加我 wx: `www674949287`，将您拉入 wx 群
+- 如果你的插件已经被激活了, 却没生效, 可以尝试执行命令 activation fast-create-variable 或者 重启 vscode or cursor
 
 ## :coffee:
 

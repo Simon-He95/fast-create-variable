@@ -7,6 +7,8 @@ Select the variable name to quickly provide the creation type, such as ref, comp
 
 Let me explain the function of this plugin. Normally, when we write code, we first write a template, such as el-input, then write v-model or @click and other events, and then go to the top to define ref or function. With this plugin, you can directly generate corresponding variables or methods in js logic (supports generating multiple variables and methods at the same time), and then you can initialize variable values ​​and supplement function logic according to your needs, which will save you a lot of time and the burden of coding to initialize variables.
 
+>If you can’t use it in Cursor, because Cursor’s Github Login is not ready yet, here is another way. You can use command: `fast-create-variable.inputGithubToken`, enter your `Github Token`, and then you can use it. This process is absolutely safe. This token only needs the permission of user:account.
+
 Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried it yet, you can find me on [discord](https://discord.com/invite/ZnjxzMKWNW) and get a one-month free trial.
 
 ## VUE
@@ -120,6 +122,7 @@ Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried 
 - For users who haven't experienced it yet, you can find me on [discord](https://discord.gg/acz4n2jx2v) to get a one-month free experience qualification.
 - Current plan 15Yuan/month, 150Yuan/year
 - Any `bug` or `suggestion` on the plugin can be communicated on `discord`, or add me wx: `www674949287`, pull you into the wx group
+- If your plugin has been activated and it doesn't work, you can try running the activation fast-create-variable command or restart vscode or cursor
 
 ## :coffee:
 
