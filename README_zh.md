@@ -121,7 +121,7 @@
 - 通过微信或支付宝赞助我，我将为您提供更多使用 GitHub 帐户的权限和时间
 - 对于尚未体验的用户，您可以在 [discord](https://discord.com/invite/ZnjxzMKWNW) 上找到我，获得一个月免费体验资格。
 - 目前计划 15元/月，150元/年
-- 插件上的任何 `bug` 或 `suggestions` 都可以在 `discord` 上交流，或者加我 wx: `www674949287`，将您拉入 wx 群
+- 插件上的任何 `bug` 或 `suggestions` 都可以在 `discord` 上交流，或者加我 wx: `simon_he95`，将您拉入 wx 群
 - 如果你的插件已经被激活了, 却没生效, 可以尝试执行命令 activation fast-create-variable 或者 重启 vscode or cursor
 
 ## :coffee:
