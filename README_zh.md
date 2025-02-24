@@ -3,29 +3,47 @@
 </p>
 <p align="center"> <a href="./README.md">English</a> | 简体中文</p>
 
-选中变量名快速提供创建类型，比如ref、computed、methods、 function、 arrowFunction、 watch、 reactive,等等，根据当前是vue2还是vue3，生成对应的变量，并跳转到新创建的变量位置
+## 插件介绍
 
-解释一下这个插件的作用，正常我们写代码，是先去写template，比如 el-input 然后写 v-model 或者 @click 等事件，然后再去顶部去定义ref，或者 function，通过这个插件可以直接在 js 逻辑生成对应的变量或者方法( 支持同时生成多个变量和方法 )，然后你再去根据你的需求去初始化变量值和补充 function 逻辑即可，会节约你很多的时间，和初始化变量的 coding 负担。
+选中变量名快速提供创建类型，比如 `ref`、`computed`、`methods`、`function`、`arrowFunction`、`watch`、`reactive` 等等。根据当前是 Vue2 还是 Vue3，生成对应的变量，并跳转到新创建的变量位置。目前插件是按需启动，当你通过快捷键激活才会加载，并校验你是否可以使用。
 
->如果你在 Cursor 中不能使用，因为 Cursor 的 Github Login 还未做好，这边提供了另一种方式，可以通过 command: `fast-create-variable.inputGithubToken`, 输入你的 `Github Token`，然后就可以使用了。这个过程是绝对安全的，这个 token 只需要 user:account 的权限。
+### 插件功能
 
-另外, 目前这个插件已有了[收费计划](#-收费计划)，如果你还未体验过，可以在 [discord](https://discord.gg/acz4n2jx2v) 上找到我，获得一个月免费体验资格。
+正常我们写代码时，先写模板（如 `el-input`），然后写 `v-model` 或 `@click` 等事件，再去顶部定义 `ref` 或 `function`。通过这个插件，可以直接在 JS 逻辑中生成对应的变量或方法（支持同时生成多个变量和方法），然后根据需求初始化变量值和补充函数逻辑。这将节省大量时间和减少初始化变量的编码负担。
 
-## VUE
-![vue](/assets/vue.gif)
+> 如果你在 Cursor 中不能使用，因为 Cursor 的 Github 登录还未完成，可以通过命令 `fast-create-variable.inputGithubToken` 输入你的 Github Token，然后就可以使用了。这个过程是绝对安全的，这个 token 只需要 `user:account` 的权限。
 
-## 🚀 支持
-- vue
-- jsx | tsx (react)
-- svelte
-- solid
-- ts | js
+### 插件示例
 
-## ⌨️ 按键
-- win: ctrl+g
-- mac: cmd+g
+- vue:
 
-## Configuration
+![vue](./assets/vue.gif)
+
+- react:
+
+![react](./assets/react.gif)
+
+### 收费计划
+
+目前这个插件已有收费计划。如果你还未体验过，可以在 [Discord](https://discord.gg/acz4n2jx2v) 或者 微信: `simon_he95` 上找到我，获得一个月免费体验资格。
+
+![auth](./assets/auth.png)
+
+## 支持的框架
+
+- Vue
+- JSX | TSX (React)
+- Svelte
+- Solid
+- TS | JS
+
+## 按键绑定
+
+- Windows: `Ctrl+G`
+- Mac: `Cmd+G`
+
+## 配置
+
 ```json
 {
   "configuration": {
@@ -35,12 +53,12 @@
       "fast-create-variable.atTop": {
         "type": "boolean",
         "default": false,
-        "description": "生成 data, methods, etc. 在 vue2 中的顶部或者底部"
+        "description": "生成 data, methods, etc. 在 Vue2 中的顶部或者底部"
       },
       "fast-create-variable.sound": {
         "type": "boolean",
         "default": false,
-        "description": "Play sound when variable is created"
+        "description": "创建变量时播放声音"
       },
       "fast-create-variable.snippet": {
         "type": "array",
@@ -53,14 +71,14 @@
             "content": "const router = useRouter()"
           }
         ],
-        "description": "user code snippet inject to variable"
+        "description": "用户代码片段注入到变量"
       }
     }
   }
 }
 ```
 
-## 📦 Snippet
+## 📦 如何配置自定义 Snippet
 ```json
 // examples
 {
@@ -72,7 +90,7 @@
       "languageIds": [ // 设置在那些语音下生效, vue, typescriptreact, typescript, javascriptreact, vue-vine
         "vue"
       ],
-      "content": "  const router = useRouter()" // 代码片段
+      "content": "const router = useRouter()" // 代码片段
     },
     {
       "name": "useLocation",
@@ -96,6 +114,7 @@
       "from": "",
       "position": "hoist-top", // 插入最后一个 import 导入之后
       "languageIds": [
+        "vue",
         "typescriptreact",
         "typescript",
         "javascriptreact"
@@ -120,9 +139,8 @@
 
 - 通过微信或支付宝赞助我，我将为您提供更多使用 GitHub 帐户的权限和时间
 - 对于尚未体验的用户，您可以在 [discord](https://discord.com/invite/ZnjxzMKWNW) 上找到我，获得一个月免费体验资格。
-- 目前计划 15元/月，150元/年
+- 目前计划 15 元/月，150 元/年
 - 插件上的任何 `bug` 或 `suggestions` 都可以在 `discord` 上交流，或者加我 wx: `simon_he95`，将您拉入 wx 群
-- 如果你的插件已经被激活了, 却没生效, 可以尝试执行命令 activation fast-create-variable 或者 重启 vscode or cursor
 
 ## :coffee:
 

@@ -3,28 +3,47 @@
 </p>
 <p align="center"> English | <a href="./README_zh.md">简体中文</a></p>
 
-Select the variable name to quickly provide the creation type, such as ref, computed, methods, function, arrowFunction, watch, reactive, etc. According to whether it is currently vue2 or vue3, generate the corresponding variable and jump to the newly created variable location.
+## Plugin Introduction
 
-Let me explain the function of this plugin. Normally, when we write code, we first write a template, such as el-input, then write v-model or @click and other events, and then go to the top to define ref or function. With this plugin, you can directly generate corresponding variables or methods in js logic (supports generating multiple variables and methods at the same time), and then you can initialize variable values ​​and supplement function logic according to your needs, which will save you a lot of time and the burden of coding to initialize variables.
+Select the variable name to quickly provide the creation type, such as `ref`, `computed`, `methods`, `function`, `arrowFunction`, `watch`, `reactive`, etc. Depending on whether it is currently Vue2 or Vue3, generate the corresponding variable and jump to the newly created variable location.
 
->If you can’t use it in Cursor, because Cursor’s Github Login is not ready yet, here is another way. You can use command: `fast-create-variable.inputGithubToken`, enter your `Github Token`, and then you can use it. This process is absolutely safe. This token only needs the permission of user:account.
+### Plugin Features
 
-Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried it yet, you can find me on [discord](https://discord.com/invite/ZnjxzMKWNW) and get a one-month free trial.
+Normally, when we write code, we first write a template, such as `el-input`, then write `v-model` or `@click` and other events, and then go to the top to define `ref` or `function`. With this plugin, you can directly generate corresponding variables or methods in JS logic (supports generating multiple variables and methods at the same time), and then initialize variable values and supplement function logic according to your needs. This will save you a lot of time and reduce the burden of coding to initialize variables.
 
-## VUE
-![vue](/assets/vue.gif)
+> If you can’t use it in Cursor because Cursor’s GitHub Login is not ready yet, you can use the command: `fast-create-variable.inputGithubToken`, enter your `GitHub Token`, and then you can use it. This process is absolutely safe. This token only needs the permission of `user:account`.
 
+### Plugin Examples
 
-## 🚀 Support
-- vue
-- jsx (react)
-- svelte
+- vue:
 
-## ⌨️ Keybindings
-- win: ctrl+g
-- mac: cmd+g
+![vue](./assets/vue.gif)
+
+- react:
+
+![react](./assets/react.gif)
+
+### Charge Plan
+
+Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried it yet, you can find me on [Discord](https://discord.com/invite/ZnjxzMKWNW) or WeChat: `simon_he95` and get a one-month free trial.
+
+![auth](./assets/auth.png)
+
+## Supported Frameworks
+
+- Vue
+- JSX | TSX (React)
+- Svelte
+- Solid
+- TS | JS
+
+## Keybindings
+
+- Windows: `Ctrl+G`
+- Mac: `Cmd+G`
 
 ## Configuration
+
 ```json
 {
   "configuration": {
@@ -34,7 +53,7 @@ Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried 
       "fast-create-variable.atTop": {
         "type": "boolean",
         "default": false,
-        "description": "Generate data, methods, etc. for vue2 at the top or at the bottom"
+        "description": "Generate data, methods, etc. for Vue2 at the top or at the bottom"
       },
       "fast-create-variable.sound": {
         "type": "boolean",
@@ -52,14 +71,14 @@ Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried 
             "content": "const router = useRouter()"
           }
         ],
-        "description": "user code snippet inject to variable"
+        "description": "User code snippet inject to variable"
       }
     }
   }
 }
 ```
 
-## 📦 Snippet
+## 📦 How to Configure Customization Snippet
 ```json
 // examples
 {
@@ -120,9 +139,8 @@ Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried 
 
 - [Sponsor](https://github.com/Simon-He95/sponsor) me by wechat or alipay, and I will give you more permissions and time to use your GitHub account
 - For users who haven't experienced it yet, you can find me on [discord](https://discord.gg/acz4n2jx2v) to get a one-month free experience qualification.
-- Current plan 15Yuan/month, 150Yuan/year
+- Current plan 15 Yuan/month, 150 Yuan/year
 - Any `bug` or `suggestion` on the plugin can be communicated on `discord`, or add me wx: `simon_he95`, pull you into the wx group
-- If your plugin has been activated and it doesn't work, you can try running the activation fast-create-variable command or restart vscode or cursor
 
 ## :coffee:
 
