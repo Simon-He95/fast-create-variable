@@ -3,6 +3,8 @@
 </p>
 <p align="center"> <a href="./README.md">English</a> | 简体中文</p>
 
+通过快捷键加选择类型来生成变量并根据场景插入对应位置
+
 ## 插件介绍
 
 选中变量名快速提供创建类型，比如 `ref`、`computed`、`methods`、`function`、`arrowFunction`、`watch`、`reactive` 等等。根据当前是 Vue2 还是 Vue3，生成对应的变量，并跳转到新创建的变量位置。目前插件是按需启动，当你通过快捷键激活才会加载，并校验你是否可以使用。

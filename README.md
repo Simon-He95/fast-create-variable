@@ -3,6 +3,8 @@
 </p>
 <p align="center"> English | <a href="./README_zh.md">简体中文</a></p>
 
+A VS Code extension to quickly create variables in various languages including Vue, React, and Svelte.
+
 ## Plugin Introduction
 
 Select the variable name to quickly provide the creation type, such as `ref`, `computed`, `methods`, `function`, `arrowFunction`, `watch`, `reactive`, etc. Depending on whether it is currently Vue2 or Vue3, generate the corresponding variable and jump to the newly created variable location.
@@ -25,7 +27,7 @@ Normally, when we write code, we first write a template, such as `el-input`, the
 
 ### Charge Plan
 
-Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried it yet, you can find me on [Discord](https://discord.com/invite/ZnjxzMKWNW) or WeChat: `simon_he95` and get a one-month free trial.
+Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried it yet, you can find me on [Discord](https://discord.com/invite/ZnjxzMKWNW) or wechat: `simon_he95` and get a one-month free trial.
 
 ![auth](./assets/auth.png)
 
