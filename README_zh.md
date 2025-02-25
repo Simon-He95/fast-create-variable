@@ -23,7 +23,7 @@
 
 - react:
 
-![react](./assets/react.gif)
+![react](./assets/jsx.gif)
 
 ### 收费计划
 
