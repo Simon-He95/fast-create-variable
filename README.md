@@ -23,7 +23,7 @@ Normally, when we write code, we first write a template, such as `el-input`, the
 
 - react:
 
-![react](./assets/react.gif)
+![react](./assets/jsx.gif)
 
 ### Charge Plan
 
