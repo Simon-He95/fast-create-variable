@@ -17,13 +17,9 @@ Normally, when we write code, we first write a template, such as `el-input`, the
 
 ### Plugin Examples
 
-- vue:
+- [vue demo](./assets/vue.gif)
 
-![vue](./assets/vue.gif)
-
-- react:
-
-![react](./assets/jsx.gif)
+- [react demo](./assets/jsx.gif)
 
 ### Charge Plan
 

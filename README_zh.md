@@ -17,13 +17,9 @@
 
 ### 插件示例
 
-- vue:
+- [vue demo](./assets/vue.gif)
 
-![vue](./assets/vue.gif)
-
-- react:
-
-![react](./assets/jsx.gif)
+- [react demo](./assets/jsx.gif)
 
 ### 收费计划
 
