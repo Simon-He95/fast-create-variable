@@ -34,6 +34,7 @@ Currently, this plugin has a [paid plan](#-charge-plan). If you haven’t tried 
 - Svelte
 - Solid
 - TS | JS
+- Uniapp
 
 ## Keybindings
 

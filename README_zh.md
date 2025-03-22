@@ -34,6 +34,7 @@
 - Svelte
 - Solid
 - TS | JS
+- Uniapp
 
 ## 按键绑定
 
